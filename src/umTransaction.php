@@ -6,8 +6,9 @@
 //	For assistance please contact devsupport@usaepay.com
 //
 
-define("USAEPAY_VERSION", "1.7.1");
+namespace usaepay;
 
+define("USAEPAY_VERSION", "1.7.1");
 
 /**
  * USAePay Transaction Class
