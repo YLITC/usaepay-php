@@ -3,6 +3,16 @@ This is a fork of the repo by USAePay here: https://github.com/usaepay/usaepay-p
 This does not include the test files.
 Added Composer support with autoload.
 
+I originaly tried using the repository @ https://github.com/portsidedesign/usaepay-php. 
+I could not get it to work as there were issues with the autoload to do with folders/files/filenames/namespaces(?).
+
+**USAGE**
+
+`composer require ylitc/usaepay-php`
+```php
+require_once __DIR__ . '/vendor/autoload.php';
+$tran = new usaepay\umTransaction();
+```
 
 MORE INFO FROM USAePay
 =================================
